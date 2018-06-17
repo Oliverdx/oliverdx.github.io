@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta name="viewport" content="initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0"/>
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+        <meta charset="UTF-8">
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
         <title>Dexter Oliveira | Programador e Designer Web</title>
 
         <style>
-            @import url(https://fonts.googleapis.com/css?family=Montserrat);#logo img,#social{margin:0 auto}#logo img,#social img,body,html{height:100%}body,html{width:100%;padding:0;margin:0;font-family:Montserrat,sans-serif;background:#000}body{display:grid;justify-content:center}#social,body{align-content:center}:before{display:block}body:before{content:"Code is poetry";color:#FFF;position:absolute;bottom:20px;right:30px;font-size:.7em}#logo{width:100px;height:100px;overflow:hidden;margin:0 auto 40px;animation:logo 1s forwards;animation-delay:1s}#social{width:350px;height:35px;display:flex;justify-content:space-between;opacity:0;animation:social 2s forwards;animation-delay:2s}#social a{position:relative;text-decoration:none;color:#000}#social a:before{text-align:center;width:100px;height:auto;padding:5px 0;line-height:100%;background:#FFF;position:absolute;bottom:-35px;left:-50%;opacity:0;transition:ease all .6s;transform:translate(0,-20px)}#social a:hover:before{opacity:1;transform:translate(0,0)}#social .phone:before{content:"Ligação"}#social .mail:before{content:"Email"}#social .github:before{content:"GitHub"}#social .linkedin:before{content:"Linked In"}#social .codepen:before{content:"CodePen"}@keyframes logo{from{width:100px}to{width:100%}}@keyframes social{from{opacity:0;transform:translate(0,-35px)}to{opacity:1;transform:translate(0,0)}}@media only screen and (max-width:479px){body:before{bottom:10px;right:10px}#logo img,#social{width:300px}#logo{width:90px;margin-bottom:20px}@keyframes logo{from{width:90px}to{width:100%}}#social a:before{display:none}}
+            @import url(https://fonts.googleapis.com/css?family=Montserrat);.font-zero{font-size:0px;}#logo img,#social{margin:0 auto}#logo img,#social img,body,html{height:100%}body,html{width:100%;padding:0;margin:0;font-family:Montserrat,sans-serif;background:#000}body{display:grid;justify-content:center}#social,body{align-content:center}:before{display:block}body:before{content:"Code is poetry";color:#FFF;position:absolute;bottom:20px;right:30px;font-size:.7em}#logo{width:100px;height:100px;overflow:hidden;margin:0 auto 40px;animation:logo 1s forwards;animation-delay:1s}#social{width:350px;height:35px;display:flex;justify-content:space-between;opacity:0;animation:social 2s forwards;animation-delay:2s}#social a{position:relative;text-decoration:none;color:#000}#social a:before{text-align:center;width:100px;height:auto;padding:5px 0;line-height:100%;background:#FFF;position:absolute;bottom:-35px;left:-50%;opacity:0;transition:ease all .6s;transform:translate(0,-20px)}#social a:hover:before{opacity:1;transform:translate(0,0)}#social .phone:before{content:"Telefone"}#social .mail:before{content:"Email"}#social .github:before{content:"GitHub"}#social .linkedin:before{content:"Linked In"}#social .codepen:before{content:"CodePen"}@keyframes logo{from{width:100px}to{width:100%}}@keyframes social{from{opacity:0;transform:translate(0,-35px)}to{opacity:1;transform:translate(0,0)}}@media only screen and (max-width:479px){body:before{bottom:10px;right:10px}#logo img,#social{width:300px}#logo{width:90px;margin-bottom:20px}@keyframes logo{from{width:90px}to{width:100%}}#social a:before{display:none}}
         </style>
     
     </head>
     <body>
+
+        <h1 class="font-zero">Dexter Oliveira</h1>
+        <h2 class="font-zero">Programador Web</h2>
 
         <div id="logo">
             <img src="/logo.svg" alt="phone"/>
@@ -23,6 +28,27 @@
             <a href="https://www.linkedin.com/in/vanderlei-oliveira-2ab445122/" target="_blank" class="linkedin" ><img src="/icons.svg#linkedin" width="50px" alt="phone" /></a>
             <a href="https://codepen.io/DexterOliveira" target="_blank" class="codepen" ><img src="/icons.svg#codepen" width="50px" alt="phone" /></a>
         </section>
+
+        <script type="application/ld+json">
+            {
+              "@context": "http://schema.org/",
+              "@type": "Person",
+              "name": "Dexter Oliveira",
+              "alternateName": "Oliverdx",
+              "url": "http://oliverdx.com.br/",
+              "image": "http://oliverdx.com.br/logo.svg",
+              "sameAs": [
+                "https://www.linkedin.com/in/vanderlei-oliveira-2ab445122/",
+                "https://github.com/oliverdx",
+                "https://codepen.io/DexterOliveira"
+              ],
+              "jobTitle": "Programador Web",
+              "worksFor": {
+                "@type": "Organization",
+                "name": "OliverDx"
+              }  
+            }
+            </script>
 
     </body>
 </html>
